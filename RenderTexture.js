@@ -5,7 +5,7 @@ var HelloWorldLayer = cc.Layer.extend({
     particle_array:[],
     ctor:function () {
         this._super();
-        //读取配置信息
+        //场景配置，读取配置信息
         var config_info=json_parse(config);
         var size = cc.winSize;
         //场景配置，背景
