@@ -5,7 +5,7 @@ var HelloWorldLayer = cc.Layer.extend({
     particle_array:[],
     ctor:function () {
         this._super();
-        //读取配置信息
+        //场景配置，读取配置信息121212
         var config_info=json_parse(config);
         var size = cc.winSize;
         //场景配置，背景
@@ -16,7 +16,7 @@ var HelloWorldLayer = cc.Layer.extend({
         });
         this.sprite.scale=config_info.background_scale;
         this.addChild(this.sprite, 0);
-        //场景配置，橡皮擦的外形　
+        //场景配置，橡皮擦的外形　,测试提交 github桌面版
         this.shape=new cc.Sprite(res.eraser);
         this.shape.scale=config_info.images[1].scale;
         this.shape.x=size.width/config_info.images[1].location[0];
@@ -94,7 +94,7 @@ var HelloWorldLayer = cc.Layer.extend({
         }, this);
         return true;
     },
-    //擦除函数
+    //擦除函数test
     eraseByBlend :function() {
         var blendfunc  = {src: cc.ONE, dst: cc.ZERO};
         this.pEraser.setBlendFunc(blendfunc);
