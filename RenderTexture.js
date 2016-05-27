@@ -16,7 +16,7 @@ var HelloWorldLayer = cc.Layer.extend({
         });
         this.sprite.scale=config_info.background_scale;
         this.addChild(this.sprite, 0);
-        //场景配置，橡皮擦的外形　
+        //场景配置，橡皮擦的外形　,测试提交 github桌面版
         this.shape=new cc.Sprite(res.eraser);
         this.shape.scale=config_info.images[1].scale;
         this.shape.x=size.width/config_info.images[1].location[0];
