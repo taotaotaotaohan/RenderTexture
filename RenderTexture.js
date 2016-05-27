@@ -94,7 +94,7 @@ var HelloWorldLayer = cc.Layer.extend({
         }, this);
         return true;
     },
-    //擦除函数
+    //擦除函数test
     eraseByBlend :function() {
         var blendfunc  = {src: cc.ONE, dst: cc.ZERO};
         this.pEraser.setBlendFunc(blendfunc);
