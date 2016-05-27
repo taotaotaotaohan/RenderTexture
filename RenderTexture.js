@@ -114,6 +114,7 @@ var HelloWorldLayer = cc.Layer.extend({
         }
         return count;
     },
+    //清除哨兵影响
     guard_clear:function(guard){
         for(var i=0;i<guard.length;i++){
             guard[i].tag=0;
