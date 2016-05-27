@@ -1,0 +1,51 @@
+{
+  "name":"rendertexture",
+  "background":"res/247203.jpg",
+  "background_sound":"",
+  "background_scale":0.5,
+  "background_position":[2,2],
+  "sound_intro": "",
+  "sound_start": "",
+  "sound_success":"res/great.mp3",
+  "particle":"res/particle.plist",
+  "images":[
+    {
+      "res":"res/247204.png",
+      "scale":"0.4",
+      "rotate": "",
+      "sound_click":"res/audio/cs.mp3",
+      "sound_idle":"res/audio/idle.mp3",
+      "animation_click":"work",
+      "animation_idle":"idle",
+      "animation_start":"start",
+      "animation_end":"end",
+      "location":[2,2.8]
+
+    },
+
+    {
+      "res":"res/247205.png",
+      "scale":"0.3",
+      "rotate": "20",
+      "sound_click":"res/audio/cs.mp3",
+      "sound_idle":"res/audio/idle.mp3",
+      "animation_click":"work",
+      "animation_idle":"idle",
+      "animation_start":"start",
+      "animation_end":"end",
+      "location":[5,4]
+    },
+    {
+      "res":"res/texture.png",
+      "scale":"1.1",
+      "rotate": "20",
+      "sound_click":"res/audio/cs.mp3",
+      "sound_idle":"res/audio/idle.mp3",
+      "animation_click":"work",
+      "animation_idle":"idle",
+      "animation_start":"start",
+      "animation_end":"end",
+    }
+  ]
+
+}
